@@ -22,12 +22,8 @@ namespace binary_tree_sum {
             AddToHashSet (tree, 0);
 
             foreach (var kvp in Hash) {
-                Console.WriteLine ($"{kvp.Key}={kvp.Value}");
+                Console.WriteLine ($"Vertical sum of {kvp.Key} is {kvp.Value}");
             }
-
-            int line = 0;
-
-            Console.WriteLine ($"Sum of line {line} is {Hash[line + Min]}");
         }
 
         static void AddToHashSet (Node node, int grade) {
