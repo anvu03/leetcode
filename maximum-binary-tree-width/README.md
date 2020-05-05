@@ -1,0 +1,1 @@
+Find binary maximum width
